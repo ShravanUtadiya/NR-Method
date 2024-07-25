@@ -1,0 +1,13 @@
+def f(x):
+    return x**2 - 4
+def df(x):
+    return 2*x
+from math import fabs
+
+x=input("Enter the Range Value:")
+x=float(x)
+while fabs(f(x))>e:
+    x1=x-(f(x)/df(x))
+    x=x1
+    print(x)
+print("Root of given Eqn is:",x)
